@@ -1,0 +1,50 @@
+--------------------------------------------MATHworks--------------------------------------------------
+
+v = [1 2 3]
+
+r = roots(v)  --acha as raízes do polinomio
+
+p = poly(r) --volta de raizes para polinomio
+
+zplane(r)   --mostra no gráfico o local das raízes
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+linspace(1,2,3) =  A função linspace é uma forma prática de se gerar vetores quando sabemos quantos pontos ele deve ter.
+Vetor = linspace (valor inicial, valor final, no. de pontos)
+• Exemplos de utilização
+
+A. Gere um vetor de 1000 pontos com valores entre zero e 1 igualmente espaçados.
+>> v = linspace(0,1,1000);
+
+b. Repita o exercício anterior, mas com os valores em ordem decrescente.
+>> v = linspace(1,0,1000); 
+---------------------------------------------------------------------------------------------------------------------------------------------
+logspace(-5,5,5) = ria um vetor com 100 com pontos espaçados nesse intervalo,escala linear, escala logaritmica, generates n points between decades 10^a and 10^b.
+
+cria um vetor em escala logarítmica que começa em 100 e vai até o valor 102
+com 11 elementos utilizando a função logspace. Os argumentos desta função são:
+
+logspace(primeiro_expoente, ultimo_expoente, numero_de_valores).
+» logspace(0,2,11)
+ans =
+ Columns 1 through 7
+ 1.0000 1.5849 2.5119 3.9811 6.3096 10.0000
+15.8489
+ Columns 8 through 11
+ 25.1189 39.8107 63.0957 100.0000 
+----------------------------------------------------------------------------------------------------------------------------------------
+residue == decomposição de fração parcial
+
+b = [-4 8];              -- polinomio superior
+a = [1 6 8];             -- polinomio inferior
+[r,p,k] = residue(b,a) 
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+A ARESPOSTE EM, FREQUENCIA É NO EIXO IMAGINARIO
+S-<JW
+
+
+
+
