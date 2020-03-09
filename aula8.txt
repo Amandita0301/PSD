@@ -1,0 +1,30 @@
+
+convolução = saida é a soma de amostras menos 1
+
+ela dá respostas falsas, já que "soma" na convolução
+
+----------------------------------------------------------------------------
+
+filter = sai a mesma quantidade que entra
+
+resposta mais correta pois saí exatamente o que entra
+
+-----------------------------------------------------------------------------
+assumir que o  filter é a melhor solução para filtragem de sinais
+
+-----------------------------------------------------------------------------
+convolução em processamento de imagens é melhor por causa da duplicação dos pixels
+---------------------------------------------------------------------------------
+
+pi' = complexo conjugado
+
+colocar um polo no mesmo ponto abaixo da linha do x
+
+-------------------------------------------------------------------------
+POLO = RAÍZES DENOMINADOR
+
+
+
+
+
+
