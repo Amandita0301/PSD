@@ -1,0 +1,41 @@
+DOIS FILTROS DIGITAIS
+------------------------------------------------------------------
+FIR =>
+
+vantagem que tem fase linear
+
+ORDEM UP
+----------------------------
+IIR=> infinite impulse response
+
+ORDEM DOWN
+
+transforma de FILTRO ANALÓGICO -> FILTRO DIGITAL
+
+duração da resposta ao impulso
+
+-------------------------------------------------------------------
+FUNÇÃO DE TRANSFERÊNCIA
+
+quanto da entrada chega na saida
+
+----------------------------------------------------------------------
+FILTRO ESTAVEL
+
+PQ O POLO ESTA NO LADO ESQUERDO DO GRAFICO
+
+----------------------------------------------------------------------
+RAIZES DO BUTTERWORTH FICAM SEMPRE EM CIMA DO CIRCULO UNITÁRIO
+
+NÃO ESQUECERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+
+----------------------------------------------------------------------
+AS RAÍZES DO BUTTERWORTH NO MATLAB
+
+basta fazer a convolução dos polinomios
+
+CON([ 1 1] , [ 1 2 3])
+
+
+
+
